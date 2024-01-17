@@ -48,17 +48,17 @@ const Home = (props: Props) => {
           </span>
         </h1>
         <p className=" mb-8 mt-4 text-base font-normal text-neutral-500">
-          <span className="inline-block max-w-[591px] align-top line-through">
+          <span className="inline-block max-w-[591px] align-top text-sm line-through">
             Codeamigo is an AI powered coding assistant that helps you learn to
             code like a developer. Today's developers didn't learn binary before
             learning Python, why should you learn how to code without the most
             modern tools?
           </span>
-          <span className="inline-block max-w-[591px] align-top">
-            I will no longer be maintaining Codeamigo. I am working on a new
-            project called Porkybank. It's a tool to help you track your daily
-            budget. If you're interested in learning more, please check it out
-            at{' '}
+          <span className="mt-4 inline-block max-w-[591px] align-top text-sm text-red-500">
+            <span className="font-bold">PSA:</span> I will no longer be
+            maintaining Codeamigo. I am working on a new project called
+            Porkybank. It's a tool to help you track your daily budget. If
+            you're interested, please check it out at{' '}
             <a
               className="underline"
               href="https://porkybank.io"
